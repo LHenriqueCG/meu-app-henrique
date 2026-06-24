@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import { Titulo } from './Componentes/Componentes'
 import './App.css'
 
 function PrimeiroComponente() {
@@ -37,12 +38,9 @@ function App() {
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
-        <div>
-          <h1>Vamos começar!</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
+
+        <Titulo />
+
         <button
           type="button"
           className="counter"
@@ -52,7 +50,6 @@ function App() {
         </button>
       </section>
 
-      <PrimeiroComponente />
 
       <div className="ticks"></div>
 
@@ -142,5 +139,6 @@ function App() {
     </>
   )
 }
+
 
 export default App
