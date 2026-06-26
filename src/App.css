@@ -182,3 +182,19 @@
     border-right-color: var(--border);
   }
 }
+
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'fira Code', monospace;
+  
+}
+
+h1 {
+  color:blanchedalmond
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
