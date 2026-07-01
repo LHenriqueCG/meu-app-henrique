@@ -6,7 +6,7 @@ function Painel() {
     <div>
       
       <nav>
-        <Link to="/home">
+        <Link to="/">
         Home
         </Link>
         <Link to="sobre">
